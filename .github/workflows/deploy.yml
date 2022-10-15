@@ -12,10 +12,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Set node version to 18.x
+      - name: Set node version to 18
         uses: actions/setup-node@v3
         with:
-          node-version: 18.x
+          node-version: 18
 
       - name: Install and Build
         run: |
@@ -24,7 +24,7 @@ jobs:
           pnpm build
           
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           token: ${{secrets.GITHUB_TOKEN}}
           branch: gh-pages

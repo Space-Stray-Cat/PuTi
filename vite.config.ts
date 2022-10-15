@@ -13,10 +13,7 @@ export default defineConfig({
   // },
   base:'./',
   build:{
-  //   // lib:{
-  //   //   entry:resolve(__dirname,'src/main.ts')
-  //   // },
-  //   // outDir:resolve(__dirname,'dist'),
+    chunkSizeWarningLimit: 4096,
     rollupOptions:{
       input:{
         index:resolve(__dirname,'index.html'),

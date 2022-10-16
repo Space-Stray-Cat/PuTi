@@ -1,13 +1,14 @@
 <script setup lang="ts">
 
-    import HelloScene from './components/HelloBabylon.vue'
-    </script>
+import HelloScene from './components/HelloBabylon.vue'
+</script>
 
 
     
-    <template>
-        <HelloScene></HelloScene>
-    </template>
+<template>
+    <HelloScene></HelloScene>
+</template>
     
-    <style scoped>
-    </style>
+<style scoped>
+
+</style>

@@ -8,7 +8,8 @@ const routes: Array<RouteRecordRaw> = [
     {
         path: "/index",
         name: "index",
-        component: () => import("../../src/components/HelloWorld.vue")
+        // component: () => import("../../src/components/HelloWorld.vue")
+        component: () => import("../../src/components/HomePage.vue")
     },
     {
         path: "/bbl",
